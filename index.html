@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/CSS/reset.css">
+    <link rel="stylesheet" href="src/CSS/estilos.css">
+    <link rel="stylesheet" href="src/CSS/scrollbar.css">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="src/imagens/pokeball.png" alt="pokebola" class="logo">
+        </a>
+
+        <a href="#">
+            <img src="src/imagens/pokemon-logo.png" alt="pokemon" class="pokemon">
+        </a>
+
+        <button id="botao-alterar-tema">
+            <img src="src/imagens/sun.png" alt="imagem do sol" class="imagem-botao">
+        </button> 
+    </header>
+    <main>
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bulbasaur</span>
+                    <span>#001</span>
+                </div>
+
+                <img src="src/imagens/Bulbasaur.png" alt="Bulbasaur" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Pode ser visto cochilando sob a luz do sol. Há uma semente em suas costas. Ao absorver os raios do sol, a semente cresce progressivamente.
+                </p>
+                
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div>
+
+                <img src="src/imagens/Charmander.png" alt="Charmander" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta de sua cauda.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+
+                <img src="src/imagens/Squirtle.png" alt="Squirtle" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Àgua</li>
+                </ul>
+
+                <p class="descricao">A concha de Squirtle não é usada apenas para proteção. A forma arredondada da concha e os sulcos em sua superfície ajudam a minimizar a resistência na água, permitindo que este Pokémon nade em alta velocidade.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Chikorita</span>
+                    <span>#151</span>
+                </div>
+
+                <img src="src/imagens/Chikorita.png" alt="Chikorita" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                </ul>
+
+                <p class="descricao">Na batalha, Chikorita balança sua folha para manter o inimigo afastado. No entanto, uma doce fragrância também exala da folha, acalmando o Pokémon batalhador e criando uma atmosfera acolhedora e amigável ao redor.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Cyndaquil</span>
+                    <span>#154</span>
+                </div>
+
+                <img src="src/imagens/Cyndaquil.png" alt="Cyndaquil" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Cyndaquil se protege acendendo as chamas em suas costas. As chamas são vigorosas se o Pokémon estiver com raiva. No entanto, se estiver cansado, as chamas crepitam intermitentemente com combustão incompleta.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Totodile</span>
+                    <span>#157</span>
+                </div>
+
+                <img src="src/imagens/Totodile.png" alt="Totodile" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Agua</li>
+                </ul>
+
+                <p class="descricao">Apesar da pequenez de seu corpo, as mandíbulas do Totodile são muito poderosas. Embora o Pokémon possa pensar que está apenas mordendo de brincadeira, sua mordida tem poder suficiente para causar ferimentos graves.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Treecko</span>
+                    <span>#251</span>
+                </div>
+
+                <img src="src/imagens/Treecko.png" alt="Treecko" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                </ul>
+
+                <p class="descricao">Treecko tem pequenos ganchos na sola dos pés que lhe permitem escalar paredes verticais. Este Pokémon ataca batendo nos inimigos com sua cauda grossa.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Torchic</span>
+                    <span>#254</span>
+                </div>
+
+                <img src="src/imagens/Torchic.png" alt="Torchic" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Torchic fica com seu treinador, seguindo atrás com passos instáveis. Este Pokémon exala fogo de mais de 1.800 graus Fahrenheit, incluindo bolas de fogo que deixam o inimigo chamuscado em preto..</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Mudkip</span>
+                    <span>#257</span>
+                </div>
+
+                <img src="src/imagens/Mudkip.png" alt="Mudkip" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Àgua</li>
+                </ul>
+
+                <p class="descricao">A barbatana na cabeça de Mudkip funciona como um radar altamente sensível. Usando esta nadadeira para sentir os movimentos da água e do ar, este Pokémon pode determinar o que está acontecendo ao seu redor sem usar seus olhos.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Turtwig</span>
+                    <span>#386</span>
+                </div>
+
+                <img src="src/imagens/Turtwig.png" alt="Turtwig" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                </ul>
+
+                <p class="descricao">A fotossíntese ocorre em seu corpo sob o sol. A casca nas costas é, na verdade, solo endurecido.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Chimchar</span>
+                    <span>#389</span>
+                </div>
+
+                <img src="src/imagens/Chimchar.png" alt="Chimchar" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Sua traseira ardente é alimentada pelo gás produzido em sua barriga. Nem a chuva pode extinguir o fogo.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Piplup</span>
+                    <span>#393</span>
+                </div>
+
+                <img src="src/imagens/Piplup.png" alt="Piplup" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Àgua</li>
+                </ul>
+
+                <p class="descricao">Não gosta de ser cuidado. É difícil criar um vínculo, já que ele não ouve seu treinador.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Snivy</span>
+                    <span>#495</span>
+                </div>
+
+                <img src="src/imagens/Snivy.png" alt="Snivy" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                </ul>
+
+                <p class="descricao">A exposição à luz solar torna seus movimentos mais rápidos. Ele usa videiras com mais habilidade do que suas mãos.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Tepig</span>
+                    <span>#498</span>
+                </div>
+
+                <img src="src/imagens/Tepig.png" alt="Tepig" class="img">
+
+                <ul class="tipos">
+                     <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Ele pode esquivar habilmente dos ataques de seu inimigo enquanto atira bolas de fogo de seu nariz. Ele assa as bagas antes de comê-las.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Oshawott</span>
+                    <span>#501</span>
+                </div>
+
+                <img src="src/imagens/Oshawott.png" alt="Oshawott" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Àgua</li>
+                </ul>
+
+                <p class="descricao">O scalchop em seu estômago não é usado apenas para a batalha - ele também pode ser usado para abrir frutas duras.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Chespin</span>
+                    <span>#650</span>
+                </div>
+
+                <img src="src/imagens/Chespin.png" alt="Chespin" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                </ul>
+
+                <p class="descricao">Os espinhos em sua cabeça geralmente são macios. Quando os flexiona, as pontas se tornam tão duras e afiadas que podem perfurar a rocha.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Fennekin</span>
+                    <span>#653</span>
+                </div>
+
+                <img src="src/imagens/Fennekin.png" alt="Fennekin" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Comer um galho o enche de energia, e suas orelhas espaçosas dão vazão ao ar mais quente do que 390 graus Fahrenheit.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Froakie</span>
+                    <span>#655</span>
+                </div>
+
+                <img src="src/imagens/Froakie.png" alt="Froakie" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Àgua</li>
+                </ul>
+
+                <p class="descricao">It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwisetake when attacked.</p>
+            </li>
+
+            
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Rowlet</span>
+                    <span>#722</span>
+                </div>
+
+                <img src="src/imagens/Rowlet.png" alt="Rowlet" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                </ul>
+
+                <p class="descricao">Ele envia suas penas, que são afiadas como lâminas, voando em ataque. Suas pernas são fortes, então seus chutes também são formidáveis.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Litten</span>
+                    <span>#725</span>
+                </div>
+
+                <img src="src/imagens/Litten.png" alt="Litten" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Se você se esforçar muito para se aproximar dele, ele não se abrirá para você. Mesmo que você se aproxime, dar muito carinho ainda é um não-não.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Popplio</span>
+                    <span>#728</span>
+                </div>
+
+                <img src="src/imagens/Popplio.png" alt="Popplio" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Àgua</li>
+                </ul>
+
+                <p class="descricao">Os balões que infla com o nariz ficam cada vez maiores à medida que pratica dia após dia.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Grookey</span>
+                    <span>#810</span>
+                </div>
+
+                <img src="src/imagens/Grookey.png" alt="Grookey" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                </ul>
+
+                <p class="descricao">Quando usa seu bastão especial para dar um toque, as ondas sonoras produzidas levam energia revitalizante para as plantas e flores da área.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Scorbunny</span>
+                    <span>#813</span>
+                </div>
+
+                <img src="src/imagens/Scorbunny.png" alt="Scorbunny" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Um aquecimento de corrida faz com que a energia do fogo percorra o corpo deste Pokémon. Assim que isso acontecer, ele estará pronto para lutar com força total.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Sobble</span>
+                    <span>#816</span>
+                </div>
+
+                <img src="src/imagens/Sobble.png" alt="Sobble" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Àgua</li>
+                </ul>
+
+                <p class="descricao">Quando assustado, este Pokémon chora. Suas lágrimas embalam o soco químico de 100 cebolas, e os atacantes não serão capazes de resistir ao choro.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Sprigatito</span>
+                    <span>#906</span>
+                </div>
+
+                <img src="src/imagens/Sprigatito.png" alt="Sprigatito" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                </ul>
+
+                <p class="descricao">Seu pelo fofo é semelhante em composição às plantas. Este Pokémon lava frequentemente o rosto para evitar que seque.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Fuecoco</span>
+                    <span>#909</span>
+                </div>
+
+                <img src="src/imagens/Fuecoco.png" alt="Fuecoco" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                 </ul>
+
+                <p class="descricao">Encontra-se em rochas quentes e usa o calor absorvido por suas escamas quadradas para criar energia de fogo.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Quaxly</span>
+                    <span>#912</span>
+                </div>
+
+                <img src="src/imagens/Quaxly.png" alt="Quaxly" class="img">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Àgua</li>
+                </ul>
+
+                <p class="descricao">Este Pokémon migrou para Paldea de terras distantes há muito tempo. O gel secretado por suas penas repele a água e a sujeira.</p>
+            </li>
+        </ul>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
